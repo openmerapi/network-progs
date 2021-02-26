@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 	printf("socket created\n");
     }
 
-
+    // initialize server socket
 
     struct sockaddr_in servaddr;
     servaddr.sin_family = AF_INET;
